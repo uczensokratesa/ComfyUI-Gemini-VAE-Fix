@@ -16,3 +16,7 @@ This node provides a professional solution for decoding long video sequences in 
 
 ## Why is this different?
 Most decoders treat video batches as independent image lists. This node treats video as a **continuous signal**, performing precise "surgical" trims on decoded batches to reconstruct a seamless temporal stream.
+## 📥 Installation
+1. Go to your `ComfyUI/custom_nodes/` folder.
+2. Run: `git clone https://github.com/uczensokratesa/ComfyUI-Gemini-VAE-Fix`
+3. Restart ComfyUI.
