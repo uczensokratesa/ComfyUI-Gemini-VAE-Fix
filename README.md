@@ -37,14 +37,14 @@ Node automatycznie wykrywa, czy używasz modelu wideo wymagającego skalowania c
    git clone [https://github.com/uczensokratesa/ComfyUI-Gemini-VAE-Fix](https://github.com/uczensokratesa/ComfyUI-Gemini-VAE-Fix)
    Zrestartuj ComfyUI.
    
-   ⚙️ Parametry
+###   ⚙️ Parametry
    
    Parametr,Opis
 frames_per_batch,"Docelowa liczba klatek w jednym cyklu. Im więcej, tym szybciej (ale więcej VRAM)."
 overlap_frames,Zakładka między kawałkami dla płynnych przejść (zalecane: 2).
 force_time_scale,"Ręczne wymuszenie skali (0 = Auto). Ustaw 8 dla LTX, 1 dla SVD/AnimateDiff."
 enable_tiling,Ręczne włączenie tilingu (node i tak włączy go sam przy OOM).
-🤝 Historia powstania (AI Ensemble)
+### 🤝 Historia powstania (AI Ensemble)
 Ten projekt jest unikalny – powstał jako proces iteracyjny prowadzony przez użytkownika z udziałem trzech modeli AI:
 
 Claude: Zadbał o architekturę i stabilność produkcji.
