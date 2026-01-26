@@ -36,6 +36,7 @@ Node automatycznie wykrywa, czy używasz modelu wideo wymagającego skalowania c
    cd ComfyUI/custom_nodes
    git clone [https://github.com/uczensokratesa/ComfyUI-Gemini-VAE-Fix](https://github.com/uczensokratesa/ComfyUI-Gemini-VAE-Fix)
    Zrestartuj ComfyUI.
+   ⚙️ Parametry
    Parametr,Opis
 frames_per_batch,"Docelowa liczba klatek w jednym cyklu. Im więcej, tym szybciej (ale więcej VRAM)."
 overlap_frames,Zakładka między kawałkami dla płynnych przejść (zalecane: 2).
