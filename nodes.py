@@ -12,7 +12,9 @@ import comfy.utils
 from comfy.model_management import throw_exception_if_processing_interrupted
 import gc
 
-class UniversalSmartVAEDecode:
+class GeminiSmartVAEDecode
+
+:
     @classmethod
     def INPUT_TYPES(cls):
         return {
@@ -197,5 +199,5 @@ class UniversalSmartVAEDecode:
             
         return (final_output,)
 
-NODE_CLASS_MAPPINGS = {"UniversalSmartVAEDecode": UniversalSmartVAEDecode}
-NODE_DISPLAY_NAME_MAPPINGS = {"UniversalSmartVAEDecode": "🎬 Universal Smart VAE (Audio Sync Fix)"}
+NODE_CLASS_MAPPINGS = {"GeminiSmartVAEDecode": GeminiSmartVAEDecode}
+NODE_DISPLAY_NAME_MAPPINGS = {"GeminiSmartVAEDecode": "🎬 GeminiSmartVAEDecode(Audio Sync Fix)"}
